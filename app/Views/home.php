@@ -45,7 +45,6 @@
                 <div class="flex-shrink-0 flex items-center">
                     <a href="#" class="flex items-center gap-3 group">
                         <img class="h-12 w-auto group-hover:scale-105 transition-transform" src="/images/logo-agroplan.png" alt="AGROPLAN logo">
-                        <span class="font-bold text-xl text-agroplan-dark tracking-wide hidden sm:block">AGROPLAN</span>
                     </a>
                 </div>
                 <div class="hidden md:flex space-x-8">
