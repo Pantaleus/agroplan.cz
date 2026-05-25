@@ -237,8 +237,12 @@
     </section>
 
     <footer class="bg-black text-white py-8 border-t border-white/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
-            <p class="text-gray-400 text-sm">&copy; <?= date('Y') ?> AGROPLAN, spol. s r.o. Všechna práva vyhrazena.</p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center text-center">
+            <p class="text-gray-400 text-sm">
+                &copy; <?= date('Y') ?> AGROPLAN, spol. s r.o. Všechna práva vyhrazena. 
+                <span class="hidden sm:inline mx-2">|</span><br class="sm:hidden">
+                Vytvořil <a href="https://petr-dubsky.cz" target="_blank" rel="noopener noreferrer" class="text-white hover:text-agroplan-light transition-colors font-medium">Pietro Dubsky</a>
+            </p>
         </div>
     </footer>
 
